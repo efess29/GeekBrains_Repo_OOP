@@ -65,7 +65,7 @@ namespace Lesson3_Task1
                     case "3":
                         Console.Write("Enter amount you want to transfer: ");
                         var amountTransfer = Decimal.Parse(Console.ReadLine());
-                        accountTarget.TransferMoney(accountSource, amountTransfer);
+                        accountTarget.TransferMoney(ref accountSource, amountTransfer);
                         break;
                     case "4":
                         Environment.Exit(0);

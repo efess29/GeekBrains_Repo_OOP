@@ -153,7 +153,7 @@ namespace Lesson3_Task1
         /// </summary>
         /// <param name="account"></param>
         /// <param name="amount"></param>
-        public void TransferMoney(BankAccount account, decimal amount)
+        public void TransferMoney(ref BankAccount account, decimal amount)
         {
             try
             {
