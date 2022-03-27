@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Lesson4_Task1
 {
@@ -53,7 +49,18 @@ namespace Lesson4_Task1
         /// <summary>
         /// Получает или задает ИД здания
         /// </summary>
-        public int Id { get; set; }
+        public int Id
+        {
+            get
+            {
+                return _id;
+            }
+
+            set
+            {
+                _id = value;
+            }
+        }
 
         /// <summary>
         /// Получает или задает последний использованный ИД здания
@@ -63,27 +70,82 @@ namespace Lesson4_Task1
         /// <summary>
         /// Получает или задает высоту здания
         /// </summary>
-        public int Height { get; set; }
+        public int Height
+        {
+            get
+            {
+                return _height;
+            }
+
+            set
+            {
+                _height = value;
+            }
+        }
 
         /// <summary>
         /// Получает или задает кол-во этажей здания
         /// </summary>
-        public int Floors { get; set; }
+        public int Floors
+        {
+            get
+            {
+                return _floors;
+            }
+
+            set
+            {
+                _floors = value;
+            }
+        }
         
         /// <summary>
         /// Получает или задает кол-во квартир здания
         /// </summary>
-        public int Flats { get; set; }
+        public int Flats
+        {
+            get
+            {
+                return _flats;
+            }
+
+            set
+            {
+                _flats = value;
+            }
+        }
 
         /// <summary>
         /// Получает или задает кол-во подъездов здания
         /// </summary>
-        public int Entrances { get; set; }
+        public int Entrances
+        {
+            get
+            {
+                return _entrances;
+            }
+
+            set
+            {
+                _entrances = value;
+            }
+        }
 
         /// <summary>
         /// Получает или задает тип здания
         /// </summary>
-        public BuildingType Type { get; set; }
+        public BuildingType Type
+        {
+            get
+            {
+                return _type;
+            }
+
+            set
+            {
+                _type = value;
+            }
+        }
 
         /// <summary>
         /// Представляет метод вычисления основных характеристик здания

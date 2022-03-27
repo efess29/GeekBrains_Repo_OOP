@@ -26,6 +26,7 @@ namespace Lesson4_Task1
                 Console.WriteLine("-------------");
                 Console.WriteLine($"ID: {building.Id}");
                 Console.WriteLine($"Type: {building.Type}");
+                Console.WriteLine($"Height: {building.Height}");
                 Console.WriteLine($"Floors: {building.Floors}");
                 Console.WriteLine($"Flats: {building.Flats}");
                 Console.WriteLine($"Entrances: {building.Entrances}");
